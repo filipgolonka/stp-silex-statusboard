@@ -1,5 +1,5 @@
 {
-  "name": "stp/statusboard",
+  "name": "stp-silex-statusboard",
   "description": "simple silex statusboard",
   "version": "0.1",
   "minimum-stability": "stable",
