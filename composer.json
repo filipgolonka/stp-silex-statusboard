@@ -20,7 +20,8 @@
   "require": {
     "silex/silex": "1.2.*",
     "twig/twig": "1.9.*",
-    "deralex/yaml-config-service-provider": "1.0.*"
+    "deralex/yaml-config-service-provider": "1.0.*",
+    "mplachta/stp-statusboard-base": "dev-master"
   },
   "require-dev": {
     "phpmd/phpmd": "2.2.*",
@@ -29,7 +30,7 @@
   },
   "autoload": {
     "psr-0": {
-      "StpBoard\\Base\\": "src",
+      "StpBoard\\Home\\": "src",
       "StpBoard\\Clock\\": "src"
     }
   },

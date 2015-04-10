@@ -23,7 +23,7 @@ This command will install all project dependencies including the ones listed in 
 In order to run the project you just need to run following command in project root directory:
 
 ```
-grunt serve
+node_modules/.bin/grunt serve
 ```
 
 The command will run php internal web server and open web browser window.
@@ -33,8 +33,8 @@ The command will run php internal web server and open web browser window.
 There are couple code quality tools installed:
 
 ```
-grunt phpcs
-grunt phpcpd
-grunt phpmd
-grunt jshint
+node_modules/.bin/grunt phpcs
+node_modules/.bin/grunt phpcpd
+node_modules/.bin/grunt phpmd
+node_modules/.bin/grunt jshint
 ```

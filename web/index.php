@@ -2,10 +2,9 @@
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-use StpBoard\Base\HomeControllerProvider;
+use StpBoard\Home\HomeControllerProvider;
 
 $app = new Silex\Application();
-$app['debug'] = true;
 
 $app->register(new \DerAlex\Silex\YamlConfigServiceProvider(__DIR__ . '/../config/config.yml'));
 

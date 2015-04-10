@@ -1,8 +1,8 @@
 <?php
 
-namespace StpBoard\Base\Entity;
+namespace StpBoard\Home\Entity;
 
-use StpBoard\Base\BoardProviderInterface;
+use StpBoard\Home\BoardProviderInterface;
 
 class Item
 {

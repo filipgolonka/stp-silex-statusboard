@@ -1,8 +1,8 @@
 <?php
 
-namespace StpBoard\Base\Service;
+namespace StpBoard\Home\Service;
 
-use StpBoard\Base\Entity\Item;
+use StpBoard\Home\Entity\Item;
 
 class BoardItemsService
 {

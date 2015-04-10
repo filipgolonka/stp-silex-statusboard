@@ -1,6 +1,6 @@
 <?php
 
-namespace StpBoard\Base\Exception;
+namespace StpBoard\Home\Exception;
 
 use Exception;
 

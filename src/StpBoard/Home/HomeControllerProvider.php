@@ -1,12 +1,13 @@
 <?php
 
-namespace StpBoard\Base;
+namespace StpBoard\Home;
 
 use Silex\Application;
 use Silex\ControllerCollection;
 use Silex\ControllerProviderInterface;
-use StpBoard\Base\Exception\InvalidConfigException;
-use StpBoard\Base\Service\BoardItemsService;
+use StpBoard\Base\TwigTrait;
+use StpBoard\Home\Service\BoardItemsService;
+use StpBoard\Home\Exception\InvalidConfigException;
 
 class HomeControllerProvider implements ControllerProviderInterface
 {

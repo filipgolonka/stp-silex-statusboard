@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b1bd6aa34470bafb2f2567519d9b2245",
+    "hash": "dcfee96d5eb00a3c5335de1df8b9d290",
     "packages": [
         {
             "name": "deralex/yaml-config-service-provider",
@@ -56,6 +56,42 @@
                 "silex"
             ],
             "time": "2015-03-10 12:58:27"
+        },
+        {
+            "name": "mplachta/stp-statusboard-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mplachta/stp-statusboard-base.git",
+                "reference": "a804f92ef3119255233a0251bd61a624da39d9ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mplachta/stp-statusboard-base/zipball/a804f92ef3119255233a0251bd61a624da39d9ba",
+                "reference": "a804f92ef3119255233a0251bd61a624da39d9ba",
+                "shasum": ""
+            },
+            "require": {
+                "twig/twig": "1.9.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "StpBoard\\Base\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michal Plachta",
+                    "email": "michal.plachta@schibsted.pl"
+                }
+            ],
+            "description": "Base classes for STP StatusBoard Project",
+            "time": "2015-04-10 10:52:08"
         },
         {
             "name": "pimple/pimple",
@@ -1302,7 +1338,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "mplachta/stp-statusboard-base": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
