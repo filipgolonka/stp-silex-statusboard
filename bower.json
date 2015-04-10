@@ -1,6 +1,7 @@
 {
   "name": "stp-silex-statusboard",
   "dependencies": {
-    "bootstrap": "v3.3.4"
+    "bootstrap": "v3.3.4",
+    "weather-icons": "v1.3.2"
   }
 }
