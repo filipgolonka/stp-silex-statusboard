@@ -12,7 +12,9 @@ Simple project that utilizes Silex power in order to create a status board for m
 
 In the project directory run the following command:
 
-```composer install```
+```
+composer install
+```
 
 This command will install all project dependencies including the ones listed in `package.json` and `bower.json`.
 
@@ -20,7 +22,9 @@ This command will install all project dependencies including the ones listed in 
 
 In order to run the project you just need to run following command in project root directory:
 
-```grunt serve```
+```
+grunt serve
+```
 
 The command will run php internal web server and open web browser window.
 
