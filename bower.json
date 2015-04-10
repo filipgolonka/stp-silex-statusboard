@@ -1,5 +1,5 @@
 {
-  "name": "stp-silex-statusboard",
+  "name": "stp-silexstatusboard",
   "dependencies": {
     "bootstrap": "v3.3.4"
   }
