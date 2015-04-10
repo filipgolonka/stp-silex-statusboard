@@ -1,0 +1,6 @@
+{
+  "name": "stp-statusboard",
+  "dependencies": {
+    "bootstrap": "v3.3.4"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "stp/statusboard",
+  "description": "simple silex statusboard",
+  "version": "0.1",
+  "minimum-stability": "stable",
+  "type": "library",
+  "keywords": [
+    "schibsted",
+    "stp",
+    "status",
+    "dashboard"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Plachta",
+      "email": "michal.plachta@schibsted.pl"
+    }
+  ],
+  "require": {
+    "silex/silex": "1.2.*",
+    "twig/twig": "1.9.*",
+    "deralex/yaml-config-service-provider": "1.0.*"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "2.2.*",
+    "sebastian/phpcpd": "2.0.*",
+    "squizlabs/php_codesniffer": "2.3.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "StpBoard\\Base\\": "src",
+      "StpBoard\\Clock\\": "src"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "npm install"
+    ],
+    "post-update-cmd": [
+      "npm install"
+    ]
+  }
+}
