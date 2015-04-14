@@ -10,6 +10,5 @@ div.boardItem {
     background: #4C5457;
     text-align: center;
     height: 350px;
-    color: #ddd;
-    padding: 15px;
+    margin: 15px 0;
 }
