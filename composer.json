@@ -21,7 +21,8 @@
     "silex/silex": "1.2.*",
     "twig/twig": "1.9.*",
     "deralex/yaml-config-service-provider": "1.0.*",
-    "mplachta/stp-statusboard-base": "dev-master"
+    "mplachta/stp-statusboard-base": "dev-master",
+    "filipgolonka/bower-config-mergetool": "dev-master"
   },
   "require-dev": {
     "phpmd/phpmd": "2.2.*",
@@ -36,10 +37,12 @@
   },
   "scripts": {
     "post-install-cmd": [
+      "STP\\Bower\\ConfigMergeTool::mergeConfig",
       "npm install",
       "cp -R vendor/*/*/assets/* web/"
     ],
     "post-update-cmd": [
+      "STP\\Bower\\ConfigMergeTool::mergeConfig",
       "npm install",
       "cp -R vendor/*/*/assets/* web/"
     ]

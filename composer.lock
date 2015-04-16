@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dcfee96d5eb00a3c5335de1df8b9d290",
+    "hash": "8e54558fdb60311cb5a37e13b9f3a84c",
     "packages": [
         {
             "name": "deralex/yaml-config-service-provider",
@@ -56,6 +56,39 @@
                 "silex"
             ],
             "time": "2015-03-10 12:58:27"
+        },
+        {
+            "name": "filipgolonka/bower-config-mergetool",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filipgolonka/bower-config-mergetool.git",
+                "reference": "f318828400fe9fa6d0f37879493dba09fa0ec95b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filipgolonka/bower-config-mergetool/zipball/f318828400fe9fa6d0f37879493dba09fa0ec95b",
+                "reference": "f318828400fe9fa6d0f37879493dba09fa0ec95b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "STP\\Bower\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Filip Golonka",
+                    "email": "filip.golonka@schibsted.pl"
+                }
+            ],
+            "description": "Bower config mergetool",
+            "time": "2015-04-16 11:09:47"
         },
         {
             "name": "mplachta/stp-statusboard-base",
@@ -1339,7 +1372,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mplachta/stp-statusboard-base": 20
+        "mplachta/stp-statusboard-base": 20,
+        "filipgolonka/bower-config-mergetool": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
