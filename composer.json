@@ -36,10 +36,12 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "npm install"
+      "npm install",
+      "cp -R vendor/*/*/assets/* web/"
     ],
     "post-update-cmd": [
-      "npm install"
+      "npm install",
+      "cp -R vendor/*/*/assets/* web/"
     ]
   }
 }
